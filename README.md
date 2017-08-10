@@ -1,2 +1,3 @@
-# React App BoilerPlate
-Boilerplate for react application.
+# React Timer App
+
+Simple timer and countdown app built using React. 

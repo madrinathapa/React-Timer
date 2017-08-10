@@ -4,11 +4,11 @@ var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 var Main = require('Main');
 
 //Load foundation css here
-require('style!css!foundation-sites/dist/foundation.min.css')
+require('style!css!sass!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
 //For app css
-require('style!css!appStyles')
+require('style!css!sass!appStyles')
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
